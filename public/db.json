@@ -1,0 +1,156 @@
+{
+  "books": [
+    {
+      "id": 0,
+      "title": "Происхождение",
+      "author": "Дэн Браун",
+      "image": "https://img.yakaboo.ua/media/catalog/product/cache/1/image/398x565/234c7c011ba026e66d29567e1be1d1f7/i/m/img_23000.jpg",
+      "price": 710,
+      "rating": 3
+    },
+    {
+      "id": 1,
+      "title": "1984",
+      "author": "Джордж Оруэлл",
+      "image": "https://img.yakaboo.ua/media/catalog/product/cache/1/image/398x565/234c7c011ba026e66d29567e1be1d1f7/c/o/cover1__w600_1__120.jpg",
+      "price": 415,
+      "rating": 5
+    },
+    {
+      "id": 2,
+      "title": "Девушка в тумане",
+      "author": "Донато Карризи",
+      "image": "https://img.yakaboo.ua/media/catalog/product/cache/1/image/398x565/234c7c011ba026e66d29567e1be1d1f7/9/7/9785389141254_3000_1_1.jpg",
+      "price": 464,
+      "rating": 4
+    },
+    {
+      "id": 3,
+      "title": "Империя должна умереть",
+      "author": "Михаил Зыгарь",
+      "image": "https://img.yakaboo.ua/media/catalog/product/cache/1/image/398x565/234c7c011ba026e66d29567e1be1d1f7/_/_/_._._1900-1917.jpg",
+      "price": 741,
+      "rating": 3
+    },
+    {
+      "id": 4,
+      "title": "Бог как иллюзия",
+      "author": "Ричард Докинз",
+      "image": "https://img.yakaboo.ua/media/catalog/product/cache/1/image/398x565/234c7c011ba026e66d29567e1be1d1f7/i/m/img459_32.jpg",
+      "price": 317,
+      "rating": 1
+    },
+    {
+      "id": 5,
+      "title": "Зулейха открывает глаза",
+      "author": "Гузель Яхина",
+      "image": "https://img.yakaboo.ua/media/catalog/product/cache/1/image/398x565/234c7c011ba026e66d29567e1be1d1f7/i/m/img_30283.jpg",
+      "price": 254,
+      "rating": 0
+    },
+    {
+      "id": 6,
+      "title": "Очаровательный кишечник. Как самый могущественный орган управляет нами",
+      "author": "Джулия Эндерс",
+      "image": "https://img.yakaboo.ua/media/catalog/product/cache/1/image/398x565/234c7c011ba026e66d29567e1be1d1f7/f/i/file_536_69.jpg",
+      "price": 573,
+      "rating": 4
+    },
+    {
+      "id": 7,
+      "title": "Великий замысел",
+      "author": "Стивен Хокинг",
+      "image": "https://img.yakaboo.ua/media/catalog/product/cache/1/image/398x565/234c7c011ba026e66d29567e1be1d1f7/4/7/47453_75037_4.jpg",
+      "price": 246,
+      "rating": 0
+    },
+    {
+      "id": 8,
+      "title": "7 навыков высокоэффективных людей: Мощные...",
+      "author": "Стивен Кови",
+      "image": "https://img.yakaboo.ua/media/catalog/product/cache/1/image/398x565/234c7c011ba026e66d29567e1be1d1f7/4/1/414_8.jpg",
+      "price": 347,
+      "rating": 5
+    },
+    {
+      "id": 9,
+      "title": "Девушка во льду",
+      "author": "Роберт Брындза",
+      "image": "https://img.yakaboo.ua/media/catalog/product/cache/1/image/398x565/234c7c011ba026e66d29567e1be1d1f7/9/7/9780751570656.jpg",
+      "price": 882,
+      "rating": 2
+    },
+    {
+      "id": 10,
+      "title": "Магия утра. Как первый час дня определяет ваш успех",
+      "author": "Хэл Элрод",
+      "image": "https://img.yakaboo.ua/media/catalog/product/cache/1/image/398x565/234c7c011ba026e66d29567e1be1d1f7/4/9/49790120_2.jpg",
+      "price": 829,
+      "rating": 1
+    },
+    {
+      "id": 11,
+      "title": "Азиатская модель управления. Удачи и провалы самого динамичного региона в мире",
+      "author": "Джо Стадвелл",
+      "image": "https://img.yakaboo.ua/media/catalog/product/cache/1/image/398x565/234c7c011ba026e66d29567e1be1d1f7/_/_/_.__141_1.jpg",
+      "price": 389,
+      "rating": 2
+    },
+    {
+      "id": 12,
+      "title": "Ведьмак (сборник)",
+      "author": "Анджей Сапковский",
+      "image": "https://img.yakaboo.ua/media/catalog/product/cache/1/image/398x565/234c7c011ba026e66d29567e1be1d1f7/i/m/img_31751.jpg",
+      "price": 424,
+      "rating": 3
+    },
+    {
+      "id": 13,
+      "title": "Атлант расправил плечи",
+      "author": "Айн Рэнд",
+      "image": "https://img.yakaboo.ua/media/catalog/product/cache/1/image/398x565/234c7c011ba026e66d29567e1be1d1f7/9/7/9785961420043.jpg",
+      "price": 157,
+      "rating": 2
+    },
+    {
+      "id": 14,
+      "title": "Озадачник",
+      "author": "Павел Полуэктов",
+      "image": "https://img.yakaboo.ua/media/catalog/product/cache/1/image/398x565/234c7c011ba026e66d29567e1be1d1f7/4/0/401_14.jpg",
+      "price": 664,
+      "rating": 0
+    },
+    {
+      "id": 15,
+      "title": "Исчезнувшая",
+      "author": "Гиллиан Флинн",
+      "image": "https://img.yakaboo.ua/media/catalog/product/cache/1/image/398x565/234c7c011ba026e66d29567e1be1d1f7/9/7/9785389065185_2400_1.jpg",
+      "price": 476,
+      "rating": 4
+    },
+    {
+      "id": 17,
+      "title": "Метро 2033",
+      "author": "Дмитрий Глуховский",
+      "image": "https://img.yakaboo.ua/media/catalog/product/cache/1/image/398x565/234c7c011ba026e66d29567e1be1d1f7/i/m/img_55120.jpg",
+      "price": 837,
+      "rating": 4
+    },
+    {
+      "id": 18,
+      "title": "Снеговик",
+      "author": "Ю Несбё",
+      "image": "https://img.yakaboo.ua/media/catalog/product/cache/1/image/398x565/234c7c011ba026e66d29567e1be1d1f7/9/7/9785389053588_3000_1.jpg",
+      "price": 796,
+      "rating": 5
+    },
+    {
+      "id": 19,
+      "title": "Как тренировать память. Не думайте о памяти – лучше используйте ее на все сто!",
+      "author": "Джонатан Хэнкок",
+      "image": "https://img.yakaboo.ua/media/catalog/product/cache/1/image/398x565/234c7c011ba026e66d29567e1be1d1f7/1/_/1_17_99.jpg",
+      "price": 399,
+      "rating": 5
+    }
+  ]
+}
