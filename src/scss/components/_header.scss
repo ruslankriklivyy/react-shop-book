@@ -1,0 +1,25 @@
+.header {
+  border-bottom: 1px solid #f3f3f3;
+  padding-bottom: 30px;
+  &__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+  }
+
+  &__button {
+    outline: none;
+    border: none;
+  }
+
+  &__logo {
+    display: flex;
+    align-items: center;
+    img {
+      display: block;
+      width: 80px;
+      height: 55px;
+    }
+  }
+}

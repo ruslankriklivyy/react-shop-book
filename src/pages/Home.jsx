@@ -3,9 +3,9 @@ import { useDispatch, useSelector } from 'react-redux';
 import { CardGroup } from 'semantic-ui-react';
 import { getBooks } from '../redux/actions/book';
 import { setSortBy, searchQuery } from '../redux/actions/filters';
-import { addBook, removeBook } from '../redux/actions/cart';
+import { addBook } from '../redux/actions/cart';
 
-import { Menu, Preloader, BookCart, Sort } from '../components';
+import { Preloader, BookCart, Sort } from '../components';
 
 const sortByArr = [
   { name: 'Все', type: 'all', order: 'desc' },
@@ -18,7 +18,7 @@ const sortByArr = [
 const Home = () => {
   const dispatch = useDispatch();
   const items = useSelector(({ books }) => books.items);
-  const { itemsCart, totalPrice, totalCount } = useSelector(({ cart }) => cart);
+  const { itemsCart } = useSelector(({ cart }) => cart);
   const cartItems = useSelector(({ cart }) => cart.items);
   const isLoading = useSelector(({ books }) => books.isLoading);
   const { sortBy, searchValue } = useSelector(({ filters }) => filters);
@@ -41,7 +41,6 @@ const Home = () => {
 
   return (
     <>
-      <Menu totalPrice={totalPrice} totalCount={totalCount} />
       <Sort
         items={sortByArr}
         onSelectItem={onSelectSortType}

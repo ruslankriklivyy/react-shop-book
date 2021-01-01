@@ -46,12 +46,15 @@ const filters = (state = initialState, action) => {
         totalCount,
       };
 
-    case REMOVE_BOOK:
+    case REMOVE_BOOK: {
+      const newItems = { ...state.items };
+      delete newItems[action.payload];
+
       return {
         ...state,
-        items: state.items.filter((b) => b.id !== action.payload),
+        items: newItems,
       };
-
+    }
     default:
       return state;
   }

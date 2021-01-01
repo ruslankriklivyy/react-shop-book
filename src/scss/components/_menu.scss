@@ -1,0 +1,31 @@
+.ui.secondary.menu {
+  a.item {
+    font-weight: 500;
+    padding: 13px 30px;
+    background-color: #f8f8f8;
+    color: #000;
+    font-size: 16px;
+    justify-content: center;
+    transition: all 0.2 ease-in;
+    &:hover {
+      background-color: rgb(238, 238, 238);
+    }
+    &:active {
+      background-color: #e0e0e0;
+    }
+    &.active {
+      background-color: #000;
+      color: #fff;
+      transition: all 0.2 ease-in;
+      &:hover {
+        background-color: #000;
+        color: #fff;
+      }
+    }
+  }
+}
+
+.ui.menu .item > .input input {
+  padding: 10px 15px;
+  font-size: 16px;
+}

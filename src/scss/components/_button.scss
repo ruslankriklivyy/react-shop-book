@@ -1,0 +1,43 @@
+.button {
+  width: 130px;
+  height: 50px;
+  outline: none;
+  background-color: rgb(175, 175, 175);
+  opacity: 0.8;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  transition: opacity 0.1s ease-in;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  &:active {
+    background-color: rgb(146, 146, 146);
+  }
+
+  &--header {
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    span {
+      padding: 0 10px;
+      &:first-child {
+        border-right: 1px solid rgb(255, 255, 255, 0.6);
+      }
+    }
+    img {
+      width: 12px;
+      height: 12px;
+      &:nth-child(1) {
+        width: 15.5px;
+        height: 15.5px;
+        margin-right: 6px;
+      }
+    }
+  }
+}
