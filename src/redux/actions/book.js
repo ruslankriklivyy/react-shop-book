@@ -16,15 +16,13 @@ export const setLoading = (isLoading) => ({
 export const getBooks = (sortBy, searchValue) => (dispatch) => {
   dispatch(setLoading(true));
 
-  axios
-    .get(`http://localhost:3001/books?books&_sort=${sortBy.type}&_order=${sortBy.order}`)
-    .then(({ data }) => {
-      const newData = data.filter(
-        (item) =>
-          item.title.toLowerCase().indexOf(searchValue.toLowerCase()) >= 0 ||
-          item.author.toLowerCase().indexOf(searchValue.toLowerCase()) >= 0,
-      );
-      searchValue.length > 0 ? dispatch(setBooks(newData)) : dispatch(setBooks(data));
-    });
+  axios.get(`books?books&_sort=${sortBy.type}&_order=${sortBy.order}`).then(({ data }) => {
+    const newData = data.filter(
+      (item) =>
+        item.title.toLowerCase().indexOf(searchValue.toLowerCase()) >= 0 ||
+        item.author.toLowerCase().indexOf(searchValue.toLowerCase()) >= 0,
+    );
+    searchValue.length > 0 ? dispatch(setBooks(newData)) : dispatch(setBooks(data));
+  });
   dispatch(setLoading(false));
 };
